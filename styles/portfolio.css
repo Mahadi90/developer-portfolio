@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-orange {
+    color: #FD6E0A;
+}
+
+.btn-orange {
+    padding: 18px 35px;
+    height: 64px;
+    font-size: 20px;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-orange:hover {
+    background-color: #b1510d;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* header and navbar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 150px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0 50px;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 60px 0 150px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 75px;
+}
+
+.banner-second-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+/* main styles */
+main {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+/* about styles  */
+.about {
+    margin:90px 0;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 110px 135px;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px
+}
+
+.about-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.data-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.action{
+    margin-bottom: 5px;
+}
