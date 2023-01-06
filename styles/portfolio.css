@@ -27,7 +27,7 @@
 }
 
 .header {
-    height: 122vh;
+    height: 124vh;
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
